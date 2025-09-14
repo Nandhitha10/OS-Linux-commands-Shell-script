@@ -1,4 +1,3 @@
-<img width="1383" height="385" alt="image" src="https://github.com/user-attachments/assets/b1e9d307-ca8e-4cc8-9705-307d7c649e0e" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -93,7 +92,9 @@ cut -c1-3 file11
 
 
 cut -d "|" -f 1 file22
+
 ## OUTPUT
+
 <img width="707" height="95" alt="image" src="https://github.com/user-attachments/assets/a53ffe17-56d3-48a2-9f9c-043d7b1b40d6" />
 
 
@@ -330,8 +331,10 @@ sed -n '2,4{s/^/$/;p}' file23
 
 <img width="694" height="107" alt="image" src="https://github.com/user-attachments/assets/f8dcfe1b-7dff-4dd0-9307-ef7309f15965" />
 
+## OUTPUT
 
 sed -n '2,4{s/$/*/;p}' file23
+
 <img width="693" height="99" alt="image" src="https://github.com/user-attachments/assets/73076aee-d2d3-486c-8b23-0b4bb26843ff" />
 
 
@@ -627,9 +630,11 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
+./ifnested.sh 
+
 <img width="696" height="402" alt="image" src="https://github.com/user-attachments/assets/42a63f53-3fc2-4cf4-a7db-fea52954ab24" />
 
-./ifnested.sh 
+
 ## OUTPUT
 
 <img width="699" height="51" alt="image" src="https://github.com/user-attachments/assets/1e52d762-b7c2-46cf-aabc-8ab9bf7b5e0b" />
@@ -678,7 +683,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+
+## OUTPUT
+
 <img width="682" height="120" alt="image" src="https://github.com/user-attachments/assets/ee000509-def5-4e01-8362-db236192253e" />
 
 # check if a file
@@ -731,7 +738,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+
+## OUTPUT
+
 <img width="642" height="168" alt="image" src="https://github.com/user-attachments/assets/6339d6ac-8873-42ce-9e27-c68b8f4bf55b" />
 
 # looking for a possible value using elif
@@ -845,8 +854,11 @@ echo The next state is $test
 done
  ```
  
-chmod 755 forin1.sh
+chmod 755 forin1.sh 
+
 ./forin1.sh 
+
+## OUTPUT
  <img width="755" height="199" alt="image" src="https://github.com/user-attachments/assets/c4dbe17b-3b10-43aa-a967-9dc16243bc62" />
 
 cat forin2.sh 
@@ -883,6 +895,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
 <img width="755" height="324" alt="image" src="https://github.com/user-attachments/assets/f47face7-b667-4510-b1a0-809e8bbd9990" />
  
 cat forin1.sh 
